@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,27 +10,32 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
 </head>
+
 <body class="text-center">
     <div class="col-xs-12 header_div">
-        <h2>Animais do som</h2>
-        <p>observação: Faça os seguintes sons: Estalos,latidos,miados. Para fazer os eles dançarem.
+        <h2>Animais controlados por som</h2>
+        <p>observação: reproduza os seguintes sons: estalos,latidos,miados. Para fazer os animais dançarem.
         </p>
     </div>
     <div class="main_div">
         <br>
-        <button class="btn btn-success" onclick="startClassification()">Começar</button>
+        <button class="btn btn-success" onclick="startClassification()">Iniciar</button>
         <h3 id="result_label">Posso ouvir: </h3>
         <h4 id="result_confidence">Precisão: </h4>
         <br>
         <img src="cachorrinho.png" id="cao" width="300" height="300">
         <img src="gatinho(1).png" id="gato" width="300" height="300">
         <img src="Coelhinho(1).png" id="coelho" width="300" height="300">
-        <img src="Passarinho(1).png" id="passaro" width="300" height="300">
+        <img src="Passarinho(1).png" id="passaro">
     </div>
     <div class="rodapé">
         desenvolvido por: Felipe e Alice.
     </div>
     <script src="main.js"></script>
 </body>
+
 </html>

@@ -7,15 +7,24 @@ body{
     color: aliceblue;
 }
 .header_div p{
-    font-size: 15px;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
 }
 .main_div button{
-    margin: 20px;
-    width: 50%;
+    margin: 30px;
+    width: 130px;
+    font-weight: bolder;
     letter-spacing: 3px;
 }
 .rodapé{
     position: fixed;
+    color: black;
     bottom: 0;
+    width: 100%;
     font-size: 18px;
+    background-color: blueviolet;
+    line-height: 2;
+    text-shadow: 5px 5px 5px white;
 }
