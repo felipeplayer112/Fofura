@@ -1,0 +1,21 @@
+body{
+    font-family: 'Agbalumo',cursive;
+    background-color: white;
+}
+.header_div{
+    background-color: red;
+    color: aliceblue;
+}
+.header_div p{
+    font-size: 15px;
+}
+.main_div button{
+    margin: 20px;
+    width: 50%;
+    letter-spacing: 3px;
+}
+.rodapé{
+    position: fixed;
+    bottom: 0;
+    font-size: 18px;
+}
